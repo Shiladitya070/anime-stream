@@ -4,6 +4,7 @@ import "./App.css";
 import Search from "./components/Search";
 import Navbar from "./components/Navbar";
 import VideoCard from "./components/VideoCard";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <VideoCard />
         <VideoCard />
       </div>
+      <Footer />
     </div>
   );
 }

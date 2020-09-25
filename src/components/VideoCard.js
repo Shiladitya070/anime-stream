@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
     paddingTop: 20,
-    marginLeft: 20,
+    marginLeft: 200,
     marginRight: 20,
     marginBottom: 20,
     float: "left",
