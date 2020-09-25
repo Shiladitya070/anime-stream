@@ -26,8 +26,8 @@ export default function Search() {
         id="standard-full-width"
         label="Label"
         style={{ margin: 8 }}
-        placeholder="Placeholder"
-        helperText="Full width!"
+        placeholder="Search your Anime"
+        helperText="Search "
         className={classes.textField}
         margin="normal"
         InputLabelProps={{

@@ -1,3 +1,11 @@
 .App {
   text-align: center;
 }
+
+#toggle {
+  margin: 10px;
+  background-color: inherit;
+  border-radius: 20%;
+
+
+}
