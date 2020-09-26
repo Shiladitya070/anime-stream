@@ -1,0 +1,19 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#anime__card {
+    display: grid;
+    place-items: center;
+
+}
+
+.anime__img {
+    border: 1px solid black;
+    max-width: 400px;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+
+}
