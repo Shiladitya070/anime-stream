@@ -5,6 +5,7 @@ import Img from "./img.jpg";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
+import EpisodeList from "./EpisodeList";
 const useStyles = makeStyles({
   root: {
     width: "100%",
@@ -12,8 +13,10 @@ const useStyles = makeStyles({
   },
 });
 
-export default function Anime() {
+export default function Anime(props) {
   const classes = useStyles();
+  const anime = props.match.params.anime;
+  console.log(anime);
   return (
     <div>
       <Navbar />
@@ -24,7 +27,7 @@ export default function Anime() {
           <img src={Img} alt="Anime" className="anime__img" />
           <br />
           <div className={classes.root}>
-            <Typography variant="h2">Black Clover</Typography>
+            <Typography variant="h2">{anime} 🚀 </Typography>
             <Typography variant="h6">
               {" "}
               Release Date:12 2017 & Status: Ongoing
@@ -38,6 +41,7 @@ export default function Anime() {
           </div>
         </Box>
       </div>
+      <EpisodeList />
     </div>
   );
 }

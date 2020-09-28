@@ -1,0 +1,22 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.vjs-default-skin {
+    color: #f55d5d;
+}
+
+.vjs-default-skin .vjs-play-progress,
+.vjs-default-skin .vjs-volume-level {
+    background-color: #7195a9
+}
+
+.vjs-default-skin .vjs-control-bar {
+    font-size: 60%
+}
+
+.video__player {
+    display: grid;
+    place-items: center;
+}
