@@ -19,12 +19,12 @@ import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 345,
+    maxWidth: 300,
     paddingTop: 20,
-    marginLeft: 200,
     marginRight: 20,
     marginBottom: 20,
     float: "left",
+    backgroundColor: "#4ABCD9",
   },
   media: {
     height: 0,
@@ -54,7 +54,7 @@ export default function RecipeReviewCard() {
   };
 
   return (
-    <Card className={classes.root}>
+    <Card elevation={10} className={classes.root}>
       <Link to="anime/blackclover">
         <CardHeader title="Black Clover" subheader="September 14, 2016" />
       </Link>

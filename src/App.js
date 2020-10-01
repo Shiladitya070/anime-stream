@@ -9,10 +9,10 @@ function App() {
   return (
     <Router>
       <Switch>
+        <Route path="/watch/:anime/:episode" exact component={Watch} />
+        <Route path="/anime/:anime" exact component={Anime} />
         <Route path="/about" exact component={About} />
         <Route path="/" exact component={FirstPage} />
-        <Route path="/anime/:anime" exact component={Anime} />
-        <Route path="/watch/:anime/:episode" exact component={Watch} />
         <Route component={NoMatchPage} />
       </Switch>
     </Router>
